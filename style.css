@@ -112,6 +112,7 @@
 .why-premium div {
     display: inline-block;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .footer {
@@ -125,13 +126,12 @@
 }
 
 .div-style {
-    /*border: 10px solid brown;*/
+    border: 10px solid brown;
     width: 900px;
     margin: 30px auto;
     border-radius: 10px;
     padding: 30px;
-    /*border-image: linear-gradient(54deg, red, blue) 10%;*/
-    background: radial-gradient(circle at 100% 100%,#000 0,#000 7.4px,transparent 0) 0 0/12.4px 12.4px no-repeat,radial-gradient(circle at 0 100%,#000 0,#000 7.4px,transparent 0) 100% 0/12.4px 12.4px no-repeat,radial-gradient(circle at 100% 0,#000 0,#000 7.4px,transparent 0) 0 100%/12.4px 12.4px no-repeat,radial-gradient(circle at 0 0,#000 0,#000 7.4px,transparent 0) 100% 100%/12.4px 12.4px no-repeat,linear-gradient(#000,#000) 50% 50%/calc(100% - 10px) calc(100% - 24.8px) no-repeat,linear-gradient(#000,#000) 50% 50%/calc(100% - 24.8px) calc(100% - 10px) no-repeat,linear-gradient(54deg,#b00d6e,#ac0e6f 50%,#084791 98%);
+    border-image: linear-gradient(54deg, red, blue) 10%;
 }
 
 
@@ -165,4 +165,16 @@
 
 .lets-rock ol {
     padding-bottom: 30px;
+}
+
+button {
+    background-color: gold;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
 }
