@@ -143,3 +143,26 @@
 .div-style h3 {
     padding-bottom: 20px;
 }
+
+.lets-rock {
+    margin: 30px auto;
+    border: 10px solid #ffc862;
+    max-width: 400px;
+}
+
+.lets-rock li {
+    list-style: none;
+}
+
+.lets-rock h3 {
+    padding: 30px 0;
+}
+
+.lets-rock a {
+    text-decoration: none;
+    color: white;
+}
+
+.lets-rock ol {
+    padding-bottom: 30px;
+}
