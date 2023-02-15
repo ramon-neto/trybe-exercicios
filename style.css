@@ -93,6 +93,22 @@
     width: 120px;
 }
 
+.why-premium {
+    text-align: center;
+}
 
+.why-premium img {
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+}
 
+.why-premium h2 {
+    margin-top: 50px;  
+    font-size: 30px;  
+}
 
+.why-premium div {
+    display: inline-block;
+    margin-top: 50px;
+}
