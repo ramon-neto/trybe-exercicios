@@ -16,24 +16,30 @@
 
 .header img {
     width: 100px;
+    vertical-align: middle;
 }
 
 .header ul {
     display: inline-block;
-    padding-left: 40%;
+    padding-left: 50%;
 }
 
 .header li {
     display: inline-block;
-    padding-right: 20px;
+    padding-left: 20px;
     font-size: 15px;
     text-align: right;    
+}
+.header li:hover {
+    color: green;
+    cursor: pointer;
 }
 
 .premium {
     background-color: rgb(240, 55, 165);
     padding: 50px 0;
     color: white;
+    height: 150px;
 
 }
 
@@ -64,6 +70,16 @@
     border-radius: 100px;
     text-align: center;
     border: 1.5px solid black;
+    font-size: 10px;
+    opacity: 0.8;
+    width: 120px;
+}
+
+.comece-agora:hover, .ver-planos:hover {
+    padding: 14px 34px;
+    font-size: 14px;
+    opacity: 1;
+    cursor: pointer;
 }
 
 .ver-planos {
@@ -72,5 +88,11 @@
     border-radius: 100px;
     padding: 10px 30px;
     text-align: center;
+    font-size: 10px;
+    opacity: 0.8;
+    width: 120px;
 }
+
+
+
 
