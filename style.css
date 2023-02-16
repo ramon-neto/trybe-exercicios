@@ -113,18 +113,18 @@
     padding-bottom: 0;
 }
 
-.why-premium div {
+.why-premium article {
     display: inline-block;
     margin: 30px 15px;
 }
 
-.footer {
+.plans {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-.footer h2 {
+.plans h2 {
     padding-top: 20px;
 }
 
