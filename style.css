@@ -61,10 +61,8 @@
     display: inline-block;
     padding-left: 30px;
     width: 140px;
-}
-
-.buttons {
-    min-height: 48px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
 }
 
 .comece-agora {
@@ -95,6 +93,7 @@
     font-size: 10px;
     opacity: 0.8;
     width: 120px;
+    background-color: transparent;
 }
 
 .why-premium {
@@ -113,18 +112,18 @@
     padding-bottom: 0;
 }
 
-.why-premium div {
+.why-premium article {
     display: inline-block;
     margin: 30px 15px;
 }
 
-.footer {
+.plans {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-.footer h2 {
+.plans h2 {
     padding-top: 20px;
 }
 
@@ -149,7 +148,7 @@
 }
 
 .lets-rock {
-    margin: 30px auto;
+    margin: 30px auto 0 auto;
     border: 10px solid #ffc862;
     max-width: 400px;
 }
@@ -181,4 +180,11 @@ button {
 button a {
     text-decoration: none;
     color: white;
+}
+.header nav {
+    display: inline;
+}
+
+footer {
+    padding: 50px 0;
 }
