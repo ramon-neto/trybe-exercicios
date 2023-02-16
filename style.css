@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+
+.header-container {
+    background-color: black;
+}
+
+.header img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.header ul {
+    display: inline-block;
+    padding-left: 50%;
+}
+
+.header li {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 15px;
+    text-align: right;    
+}
+.header li:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.premium {
+    background-color: rgb(240, 55, 165);
+    padding: 50px 0;
+    color: white;
+    height: 150px;
+
+}
+
+.premium-content {
+    width: 70%;
+    margin: auto;
+}
+
+.premium-content h1, h2 {
+    padding-bottom: 20px;
+}
+
+.premium-content p {
+    padding-top: 20px;
+    font-size: 11px;
+}
+
+.premium-buttons {
+    display: inline-block;
+    padding-left: 30px;
+    width: 140px;
+}
+
+.comece-agora {
+    background-color: black; 
+    color:white; 
+    padding: 10px 30px;
+    border-radius: 100px;
+    text-align: center;
+    border: 1.5px solid black;
+    font-size: 10px;
+    opacity: 0.8;
+    width: 120px;
+}
+
+.comece-agora:hover, .ver-planos:hover {
+    padding: 14px 34px;
+    font-size: 14px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ver-planos {
+    color: black;
+    border: 1.5px solid white;
+    border-radius: 100px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.8;
+    width: 120px;
+}
+
+.why-premium {
+    text-align: center;
+}
+
+.why-premium img {
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+}
+
+.why-premium h2 {
+    margin-top: 50px;  
+    font-size: 30px;  
+    padding-bottom: 0;
+}
+
+.why-premium div {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer h2 {
+    padding-top: 20px;
+}
+
+.div-style {
+    border: 10px solid brown;
+    width: 900px;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 30px;
+    border-image: linear-gradient(54deg, red, blue) 10%;
+}
+
+
+.div-style li {
+    list-style: none;
+    text-align: left;
+}
+
+.div-style h3 {
+    padding-bottom: 20px;
+}
+
+.lets-rock {
+    margin: 30px auto;
+    border: 10px solid #ffc862;
+    max-width: 400px;
+}
+
+.lets-rock li {
+    list-style: none;
+}
+
+.lets-rock h3 {
+    padding: 30px 0;
+}
+
+.lets-rock a {
+    text-decoration: none;
+    color: white;
+}
+
+.lets-rock ol {
+    padding-bottom: 30px;
+}
+
+button {
+    background-color: gold;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
